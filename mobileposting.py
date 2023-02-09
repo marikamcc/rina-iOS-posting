@@ -13,7 +13,7 @@ def getinput():
 def writeout(new_row):
     fn = str(datetime.now().date())
     print(fn)
-    f = open('/home/pi/babynet/logs/'+fn+'.txt', "a")
+    f = open('/home/pi/rina/logs/'+fn+'.txt', "a")
     f.write(str(new_row)+'\n')
     f.close()
 
